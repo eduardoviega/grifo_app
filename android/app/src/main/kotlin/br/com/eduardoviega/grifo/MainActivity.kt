@@ -1,4 +1,4 @@
-package com.example.grifo_app
+package br.com.eduardoviega.grifo
 
 import io.flutter.embedding.android.FlutterActivity
 
