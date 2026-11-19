@@ -31,7 +31,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
-
+  fpdart: ^1.2.0
+  get_it: ^9.3.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

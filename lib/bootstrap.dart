@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:grifo_app/app.dart';
 import 'package:grifo_app/core/config/app_config.dart';
+import 'package:grifo_app/core/di/injection.dart';
 
 /// Inicialização comum a todos os flavors.
 ///
@@ -9,5 +10,6 @@ import 'package:grifo_app/core/config/app_config.dart';
 /// Firebase) entram aqui, uma única vez.
 void bootstrap(AppConfig config) {
   WidgetsFlutterBinding.ensureInitialized();
+  configureDependencies(config);
   runApp(App(config: config));
 }
