@@ -11,9 +11,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: config.appName,
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Center(child: Text(config.appName)),
-      ),
+      home: Scaffold(body: Center(child: Text(config.appName))),
     );
   }
 }
